@@ -1,0 +1,7 @@
+source /opt/anaconda3/bin/activate
+conda activate my_x86_env
+python -c "import platform; print(platform.processor())"
+
+source ~/miniforge3/bin/activate
+conda activate my_arm_env
+python -c "import platform; print(platform.processor())"
