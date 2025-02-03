@@ -1,4 +1,5 @@
 source /opt/anaconda3/bin/activate
+source ~/anaconda3/bin/activate
 conda activate my_x86_env
 python -c "import platform; print(platform.processor())"
 
